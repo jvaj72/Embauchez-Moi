@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ajouter une formation</title>
+	<link rel="stylesheet" type="text/css" href="ajouter_formation.css">
+	<meta charset="utf-8" />
+</head>
+<body>
+<h1>Ajouter une formation ou un diplôme</h1>
+<label>Année</label><input type="text" name="année" />
+<label>Formation</label><input type="text" name="formation" />
+<br/>
+<br/>
+<br/>
+<form action="ajouter_formation.php" method="POST">
+<select name="Niveau" size="1">
+<option selected>Niveau</option>
+<option>bac + 5</option>
+<option>bac + 3</option>
+<option>bac + 2</option>
+<option>CAP, BEP ou équivalent</option>
+<option>2nd ou 1ère achevée</option>
+<option>BEPC ou 3ème achevée</option>
+<option>4ème achevée</option>
+<option>Aucune formation scolaire</option>
+</select>
+</form>
+<br/>
+<br/>
+<br/>
+<form>
+<select name="Domaine" size="1">
+<option selected>Domaine</option>
+</select>
+</form>
+<br/>
+<br/>
+
+
+<form>
+<select name="Origine" size="1">
+<option selected>Origine</option>
+</select>
+
+<button>Annuler</button>
+<button type="submit">Valider</button>
+</form>
+<br/>
+
+
+
+</body>
+
+
